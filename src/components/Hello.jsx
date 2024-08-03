@@ -1,9 +1,9 @@
-const name = "harsh";
-
-function Hello() {
+function Hello({ name, message }) {
   return (
     <div>
-      <h1> Hello Tender coconut </h1>;
+      <h1>
+        {message} {name}
+      </h1>
     </div>
   );
 }

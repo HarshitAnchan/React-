@@ -5,7 +5,6 @@ import Hello from "./components/Hello";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Hello />
     <App />
   </React.StrictMode>
 );
