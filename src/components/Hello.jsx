@@ -1,7 +1,11 @@
-function Hello (){
-    return <h1> Hello Tender coconut</h1>
+const name = "harsh";
 
+function Hello() {
+  return (
+    <div>
+      <h1> Hello Tender coconut </h1>;
+    </div>
+  );
 }
-
 
 export default Hello;
