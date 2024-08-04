@@ -1,8 +1,8 @@
-function Hello({ name, message }) {
+function Hello(props) {
   return (
     <div>
       <h1>
-        {message} {name}
+        {props.message} {props.emoji} {props.name}
       </h1>
     </div>
   );
