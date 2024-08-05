@@ -8,16 +8,31 @@ export default function Fruits() {
       name: "Apple",
       price: 10,
       emoji: "🍎",
+      soldout: false,
     },
     {
       name: "Mango",
       price: 14,
       emoji: "🥭",
+      soldout: true,
     },
     {
       name: "banana",
       price: 19,
       emoji: "🍌",
+      soldout: false,
+    },
+    {
+      name: "Pear",
+      price: 23,
+      emoji: "🍐",
+      soldout: true,
+    },
+    {
+      name: "cherry",
+      price: 19,
+      emoji: "🍒",
+      soldout: false,
     },
   ];
   return (
@@ -29,6 +44,7 @@ export default function Fruits() {
             name={fruit.name}
             price={fruit.price}
             emoji={fruit.emoji}
+            soldout={fruit.soldout}
           />
         ))}
       </ul>
